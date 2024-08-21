@@ -1,6 +1,9 @@
 # Site settings
 title: Security Help
-description: “The author of this document makes no guarantee as to its accuracy or completeness. Use the information provided at your own discretion.”
+author:
+  name: Tenebris Inc.
+  email: info@tenebris.com
+description: The author of this document makes no guarantee as to its accuracy or completeness. Use the information provided at your own discretion.
 
 # Build settings
 remote_theme: jekyll/minima
