@@ -8,20 +8,3 @@ description: The author of this document makes no guarantee as to its accuracy o
 # Build settings
 remote_theme: jekyll/minima
 
-nav:
-  - title: "Hacked Devices"
-    url: /hacked/
-    children:
-      - title: "Android"
-        url: /hacked/android
-      - title: "iPhone"
-        url: "hacked/iphone
-      - title: "MacOS"
-        url: /hacked/macos
-      - title: "Windows"
-        url: /hacked/windows
-  - title: "Social Media"
-    url: /social/
-    children:
-      - title: "Facebook"
-        url: /social/facebook
