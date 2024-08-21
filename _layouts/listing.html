@@ -1,24 +1,21 @@
 ---
-layout: page
+layout: base
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    {{ content }}
 
-    <h2>Menu</h2>
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
 
-    <h3>Pages</h3>
+  {{ content }}
 
-    {% include list-pages.html %}
+   <h3>Pages</h3>
 
-    <h3>Sections</h3>
+   {% include list-pages.html %}
+
+   <h3>Sections</h3>
 
     {% include list-sections.html %}
   </body>
 </html>
-
+</div>
