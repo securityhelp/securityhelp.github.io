@@ -9,9 +9,6 @@ layout: base
 
   {{ content }}
 
-  <h3>Sections</h3>
-
-  {% include list-sections.html %}
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
