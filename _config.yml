@@ -1,9 +1,6 @@
 # Site settings
 title: Security Help
-author:
-  name: Eric Jacksch
-  email: info@tenebris.com
-description: "Security help for everyone."
+description: “Disclaimer: The author of this document makes no guarantee as to its accuracy or completeness. Use the information provided at your own discretion.”
 
 # Build settings
 remote_theme: jekyll/minima
