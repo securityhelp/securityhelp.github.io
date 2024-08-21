@@ -1,15 +1,24 @@
 ---
 layout: page
 ---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {{ content }}
 
-{{ content }}
+    <h2>Menu</h2>
 
-<h2>Menu</h2>
+    <h3>Pages</h3>
 
-<h3>Pages</h3>
+    {% include list-pages.html %}
 
-{% include list-pages.html %}
+    <h3>Sections</h3>
 
-<h3>Sections</h3>
+    {% include list-sections.html %}
+  </body>
+</html>
 
-{% include list-sections.html %}

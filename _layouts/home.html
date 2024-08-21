@@ -2,6 +2,15 @@
 layout: default
 ---
 
-{{ content }}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {{ content }}
 
-{% include list-sections.html %}
+    {% include list-sections.html %}
+  </body>
+</html>
