@@ -13,13 +13,13 @@ nav:
     url: /hacked/
     children:
       - title: "Android"
-        url: "/hacked/android
+        url: /hacked/android
       - title: "iPhone"
-        url: "/hacked/iphone
+        url: "hacked/iphone
       - title: "MacOS"
-        url: "/hacked/macos
+        url: /hacked/macos
       - title: "Windows"
-        url: "/hacked/windows
+        url: /hacked/windows
   - title: "Social Media"
     url: /social/
     children:
