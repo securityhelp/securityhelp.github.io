@@ -1,3 +1,4 @@
 ---
 title: Social
+layout: section
 ---

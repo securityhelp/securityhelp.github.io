@@ -1,4 +1,5 @@
 ---
 title: Hacked
+layout: section
 ---
 
